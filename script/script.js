@@ -17,7 +17,7 @@ var french_home = function(){
     body.innerHTML=`
         <header>Christianisme vs Islam</header>
 	        <nav class="navbar" id="ref">
-			<li class="nav"><a href="./home.html">Home</a></li>
+			<li class="nav"><a href="./index.html">Home</a></li>
 			<li class="nav"><a href="./bible.html">Que dit la Bible sur Muhammed?</a></li>
 			<li class="nav"><a href="./quran.html">Que dit le Coran sur Jesus?</a></li>
 			<li class="nav"><a href="./crucifixion.html">Crucifiction?</a></li>
