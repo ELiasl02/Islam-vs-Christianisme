@@ -1,0 +1,165 @@
+/*balises*/
+form{ display:inline-block}
+body{
+    background-color:#1c2227;
+    font-size: 15px
+}
+header{
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(31, 59, 59);
+}
+figure{
+    display: flex;
+    justify-content: center;
+	align-items: center; 
+    object-position: center;
+}
+img{
+    display: flex;
+    justify-content: center;
+	align-items: center;  
+    height:300px;
+    width: 600px;
+    margin:50px auto;
+    object-fit: contain;  
+    object-position: center;  
+}
+nav{
+    display: flex;
+    justify-content: center;
+	align-items: center;  
+}
+
+li{
+    background-color: #0e1c27;
+    border: solid 5px #0e1c27;
+    border-radius: 5px ;
+    color:#1b4163;
+    text-align: center ;
+    text-decoration: none;
+    margin:10px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+a{
+    color:#1b4163;
+    text-align: center ;
+    text-decoration: none;
+    height: 300px;
+    width: 400px;
+}
+
+footer{
+    margin: 30px;
+    font-size: xx-large;
+}
+button{
+    border-radius: 6px;
+    height: 60px;
+    width: 100px;
+}
+button:hover{
+    scale:1.25;
+}
+h2{
+    color: red;
+    font-size: 40px;
+    text-decoration: underline dotted;
+    font-weight: 900 ; 
+}
+em:hover{
+    scale: 1.25;
+    transition-duration: 3s;
+    color: red;
+    text-decoration: underline double;
+    
+}
+a:hover{
+    font-weight: bolder;
+    color: rgb(6, 149, 22);
+    text-decoration: underline dotted rgb(31, 59, 59);
+}
+
+
+
+
+/*id*/
+#crucifixion{
+    color: orangered;
+    text-decoration: underline dotted
+}
+#crucifiction{
+    background-image:url('../images/cross.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#bible{
+    background-image:url('../images/bible.webp');
+    background-size: cover;
+    background-position: center;
+}
+#quran{
+    background-image:url('../images/coran.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#contradictions{
+    background-image:url('../images/contrad.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#miracles{
+    background-image:url('../images/miracle.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#start{
+    margin:5px;
+}
+
+
+/*classi am*/
+.link{
+    height: 300px;
+    width:600px;
+    display: block;
+    margin: 5px auto;
+    
+}
+.titre{
+    font-size: 30px;
+    text-align: center;
+    color:darkgray;
+    margin-top: 50px;
+    text-decoration: underline whitesmoke;
+}
+.intro{
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+.text{
+    text-align: center;
+    color: wheat;
+    font-size: 20px;
+    
+}
+.citation{
+    color: rebeccapurple;
+    font-style:italic;
+    font-weight: bold
+}
+.nav{
+    width:180px;
+    height:30px;
+    display: inline-block;
+}
+.isaiah{
+    width: 800px;
+    height: 900px;
+}
+.nav:hover{
+    scale: 1.25;
+}
