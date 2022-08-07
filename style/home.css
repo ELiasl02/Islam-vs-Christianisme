@@ -1,14 +1,16 @@
 /*balises*/
-form{ display:inline-block}
+form{ display:inline-block;
+}
 body{
     background-color:#1c2227;
-    font-size: 15px
+    font-size: 20px;
+    
 }
 header{
     font-size: 70px;
     text-align: center;
     text-decoration: underline;
-    color: rgb(31, 59, 59);
+    color: rgb(95, 81, 194);
 }
 figure{
     display: flex;
@@ -18,16 +20,11 @@ figure{
 img{
     height:400px;
 }
-nav{
-    display: flex;
-    justify-content: center;
-	align-items: center;  
-}
 
 li{
     background-color: #0e1c27;
     border: solid 5px #0e1c27;
-    border-radius: 5px ;
+    border-radius: 40px ;
     color:#1b4163;
     text-align: center ;
     text-decoration: none;
@@ -73,6 +70,9 @@ img:hover{
 
 
 /*id*/
+#nav{
+    border-radius: 0px;
+}
 #crucifixion{
     color: orangered;
     text-decoration: underline dotted
@@ -104,6 +104,35 @@ img:hover{
 }
 
 /*classi am*/
+.navbar{
+    width:90%;
+    min-height:100px;
+    margin: auto;
+}
+
+.nav-item{
+    width:200px;
+    height:60px;
+    margin: 10px;
+}
+
+.nav-item:nth-of-type(5){
+    width:235px;
+}
+.navbar-brand{
+    width:200px;
+    height:50px;
+    text-align: left;
+    margin-right: 100px;
+}
+.nav-link{
+    width: 210px;
+    height:50px;
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+    bottom: 5px
+}
 
 .titre{
     font-size: 30px;
@@ -127,11 +156,45 @@ img:hover{
     font-style:italic;
     font-weight: bold
 }
-.nav{
-    width:180px;
-    height:30px;
-    display: inline-block;
+.navbar{
+    width:90%;
+    min-height:100px;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: left;
 }
-.nav:hover{
-    scale: 1.25;
+
+.nav-item{
+    width:200px;
+    height:60px;
+    margin: 10px;
+}
+
+.nav-item:nth-of-type(5){
+    width:235px;
+}
+.navbar-brand{
+    width:200px;
+    height:50px;
+    text-align: left;
+    margin-right: 100px;
+}
+
+.nav-link{
+    width: 210px;
+    height:50px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.navbar-toggler .icon-bar {
+  margin: 7px;
+  display: block;
+  width: 22px;
+  height: 1px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
+.navbar-collapse.in {
+    display: block !important;
 }
