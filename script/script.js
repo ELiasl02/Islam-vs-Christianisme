@@ -30,8 +30,6 @@ var french_home = function(){
     console.log('asdasd');
     var body = document.getElementsByTagName('body')[0];
 	body.innerHTML=`
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 	<header>Christianisme vs Islam</header>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary" id='nav'>
 		<a class="navbar-brand" href="./index.html">Home</a>
@@ -41,7 +39,7 @@ var french_home = function(){
 		<div class="collapse navbar-collapse" id="navbarText">
 		  <ul class="navbar-nav mr-auto">
 			<li class="nav-item active">
-			  <a class="nav-link active" href="./index.html">Home<span class="sr-only">(current)</span></a>
+			  <a class="nav-link active" href="./index.html">Home</a>
 			</li>
 			<li class="nav-item">
 			  <a class="nav-link" href="./bible.html">Mohammed dans la Bible?</a>
