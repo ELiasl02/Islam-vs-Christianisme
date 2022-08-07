@@ -50,6 +50,7 @@ a{
 footer{
     margin: 30px;
     font-size: xx-large;
+    color: wheat;
 }
 button{
     border-radius: 6px;
@@ -64,6 +65,11 @@ h2{
     font-size: 40px;
     text-decoration: underline dotted;
     font-weight: 900 ; 
+}
+div{
+    color:  orange;
+    text-align: center;
+    font-size: 30px
 }
 em:hover{
     scale: 1.25;
@@ -189,7 +195,7 @@ a:hover{
     height: 900px;
 }
 .navbar-collapse.in {
-    display: block !important;
+    display:block !important;
 }
 .nav:hover{
     scale: 1.25;
