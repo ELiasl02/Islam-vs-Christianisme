@@ -30,7 +30,7 @@ var hide_h2 = function(){
 	};
 };
 var hide_h3 = function(){
-	var text=document.getElementById('div-'+String((this.id).slice(-1)));
+	var text=document.getElementById('div-'+ this.id.replace('h-',''));
   var style = getComputedStyle(text);
   if (style.display=='block'){
     text.style.display="none"
