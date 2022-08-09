@@ -1,8 +1,11 @@
 var start = function() {
 	var ids=document.getElementsByTagName('body')[0]
 	var h2=document.getElementsByTagName('h2')
+	var h3=document.getElementsByTagName('h3')
 	for (var i=0; i<h2.length;i++){
-		h2[i].addEventListener('click',hide);}
+		h2[i].addEventListener('click',hide_h2);}
+	for (var i=0; i<h3.length;i++){
+		h3[i].addEventListener('click',hide_h3);}
 	if (ids.id=='home'){
     	french_home();
 	}
@@ -12,19 +15,30 @@ var start = function() {
 
 
 
-}
+};
 
 window.addEventListener('load',start);
 
-var hide = function(){
+
+var hide_h2 = function(){
 	var text=document.getElementById('text-'+this.id)
 	var style=getComputedStyle(text)
 	if (style.display=='block'){
 		text.style.display='none'
 	} else{
 		text.style.display='block'
-	}
-}
+	};
+};
+var hide_h3 = function(){
+	var text=document.getElementById('div-'+String((this.id).slice(-1)));
+  var style = getComputedStyle(text);
+  if (style.display=='block'){
+    text.style.display="none"
+  } else{
+    text.style.display="block"
+  }
+};
+	
 
 var french_home = function(){
     console.log('asdasd');
