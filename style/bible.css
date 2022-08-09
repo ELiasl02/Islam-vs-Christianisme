@@ -22,7 +22,7 @@ img{
     justify-content: center;
 	align-items: center;  
     height:300px;
-    width: 600px;
+    width: 700px;
     margin:50px auto;
     object-fit: contain;  
     object-position: center;  
@@ -66,10 +66,10 @@ h2{
     text-decoration: underline dotted;
     font-weight: 900 ; 
 }
-div{
-    color:  orange;
-    text-align: center;
-    font-size: 30px
+h3{
+    color: orange;
+    margin:30px;
+    font-size:40px
 }
 em:hover{
     scale: 1.25;
@@ -120,7 +120,9 @@ a:hover{
 #start{
     margin:5px;
 }
-
+div[id*="div-"]{
+    display: none;
+}
 
 /*classi am*/
 .link{
@@ -129,6 +131,11 @@ a:hover{
     display: block;
     margin: 5px auto;
     
+}
+.alerte{
+    color:  orchid;
+    text-align: center;
+    font-size: 30px;
 }
 .titre{
     font-size: 30px;
