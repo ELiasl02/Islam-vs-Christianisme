@@ -31,12 +31,12 @@ var hide_h2 = function(){
 };
 var hide_h3 = function(){
 	var text=document.getElementById('div-'+ this.id.replace('h-',''));
-  var style = getComputedStyle(text);
-  if (style.display=='block'){
-    text.style.display="none"
-  } else{
-    text.style.display="block"
-  }
+	var style = getComputedStyle(text);
+	if (style.display=='block'){
+        text.style.display="none"
+  	} else{
+    	text.style.display="block"
+  	}
 };
 	
 
