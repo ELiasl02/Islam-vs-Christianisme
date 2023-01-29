@@ -78,7 +78,7 @@ var french_home = function(){
 			<img src="./images/islam_vs_christianity.jpg" alt="Islam vs Christianisme">
 		</figure>
 		<h1 class="titre">Pourquoi j'ai créé ce site?</h1>
-		<div class="intro"><div>Je m’appelle Elias Lachhab, 19 ans, étudiant à Polytech Lille. Je viens d'une famille catholique, j'ai grandi catholique et j'étais chrétien pour plus de 16 ans de ma vie. Personnellement j'ai tous jour été interesse par les religions abrahamiques.
+		<div class="intro"><div>Actuellement étudiant à Polytech Lille. Je viens d'une famille catholique, j'ai grandi catholique et j'étais chrétien pour plus de 16 ans de ma vie. Personnellement j'ai tous jour été interesse par les religions abrahamiques.
 		Je connaissais assez bien ma religion mais je n'ai jamais compris le principe de la Trinite. Je me suis donc mis à lire la Bible et à questionner l'enseignement de l'église, de la Trinite, Noël, Pâques etc.
 		Durant ma lecture j'ai rencontré plusieurs problèmes comme:  </div>
 			<ul><li>Jésus na jamais proclamer divinité, au contraire il dit qu'il n'est rien sans Dieu: "<em class="citation">Je ne puis rien faire de moi-même: d’après ce que j’entends, je juge; et mon jugement est juste, parce que je ne cherche pas ma volonté, mais la volonté de celui qui m’a envoyé.</em>" (Jean 5:30)</li>
